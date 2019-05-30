@@ -29,6 +29,7 @@ router.post('/product', (request, response) => {
     });
 });
 
+console.log('Diksha');
 router.put('/product/:id', (request, response) => {
     const id = request.params.id;
     const title = request.body.title;
